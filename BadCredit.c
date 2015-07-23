@@ -11,6 +11,9 @@ int main(void)
     
     firstNumber = number/100; /// doesn't follow the pattern /// outside for loop /// 
     
+    
+    for(int i = 0 ; i < 3 ; i ++ ){}
+    
     sum += (firstNumber * 100); 
     secondNumber = number - sum; 
     secondNumber /= 10;
